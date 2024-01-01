@@ -32,10 +32,10 @@ function App() {
       <section className="bg-[rgb(245_246_255)] px-8 py-12 sm:px-16 sm:py-24">
         <CustomerReviews />
       </section>
-      <section className="px-8 py-12 sm:px-16">
+      <section className="px-8 py-16 sm:px-16 sm:py-32">
         <Subscribe />
       </section>
-      <section className="bg-black">
+      <section className="bg-black px-8 pt-12 sm:px-16 sm:pt-24">
         <Footer />
       </section>
     </main>
