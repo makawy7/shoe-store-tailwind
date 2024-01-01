@@ -14,10 +14,10 @@ function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:px-16 xl:max-wide:pr-0">
+      <section className="xl:px-16 xl:max-wide:pr-0 pb-12 sm:pb-24">
         <Hero />
       </section>
-      <section>
+      <section className="px-8 py-12 sm:px-16 sm:py-24">
         <PopularProduct />
       </section>
       <section>
