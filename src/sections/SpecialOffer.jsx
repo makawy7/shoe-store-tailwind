@@ -25,7 +25,15 @@ const SpecialOffer = () => {
         </p>
         <div className="flex flex-wrap gap-4">
           <Button label="Shop now" iconUrl={arrowRight} />
-          <Button label="Learn more" customClass='bg-white text-gray-700 border-1 border-gray-700 px-6'/>
+          <Button
+            label="Learn more"
+            customClass={{
+              bgColor: "bg-white",
+              textColor: "text-gray-700",
+              border: "border-gray-700",
+              paddingX: "px-6",
+            }}
+          />
         </div>
       </div>
     </div>

@@ -13,7 +13,10 @@ const Subscribe = () => {
           type="text"
           placeholder="subscribe@nike.com"
         />
-        <Button label="Sign up" customClass="whitespace-nowrap" />
+        <Button
+          label="Sign up"
+          customClass={{ whiteSpaceNoWrap: "whitespace-nowrap" }}
+        />
       </div>
     </div>
   );
