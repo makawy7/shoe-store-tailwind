@@ -23,7 +23,7 @@ function App() {
       <section className="px-8 py-12 sm:px-16 sm:py-24">
         <SuperQuality />
       </section>
-      <section>
+      <section className="px-8 py-12 sm:px-16 sm:py-24">
         <Services />
       </section>
       <section>
