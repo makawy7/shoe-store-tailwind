@@ -5,7 +5,7 @@ const Button = ({ label, iconUrl }) => {
       gap-3 py-4 border border-orange-700 px-8 leading-none
     text-white text-lg bg-orange-600 self-start rounded-full font-montserrat"
     >
-      {label} <img src={iconUrl} />
+      {label} {iconUrl && <img src={iconUrl} alt="icon" />}
     </div>
   );
 };
