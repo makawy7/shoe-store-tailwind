@@ -4,7 +4,7 @@ const SuperQuality = () => {
   return (
     <div className="max-w-[1440px] mx-auto flex gap-8 flex-col lg:flex-row">
       <div className="flex flex-col flex-1 justify-center ">
-        <h1 className="text-5xl font-bold font-palanquin lg:max-w-lg">
+        <h1 className="text-5xl font-bold font-palanquin lg:max-w-lg leading-[55px]">
           We Provide You<span className="text-orange-600"> Super Quality </span>
           Shoes
         </h1>
