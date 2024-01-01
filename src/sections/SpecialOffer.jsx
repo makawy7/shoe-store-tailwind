@@ -23,7 +23,7 @@ const SpecialOffer = () => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           <Button label="Shop now" iconUrl={arrowRight} />
           <Button label="Learn more" customClass='bg-white text-gray-700 border-1 border-gray-700 px-6'/>
         </div>

@@ -2,7 +2,7 @@ const ServiceCard = ({ imgURL, label, subtext }) => {
   return (
     <div
       className="p-8 shadow-[0_10px_40px_rgba(0,0,0,0.1)] rounded-xl flex-1
-                    space-y-3 py-16 max-xl:min-w-[350px]"
+                    space-y-3 py-16 max-xl:min-w-[350px] max-sm:min-w-[300px]"
     >
       <div className="bg-orange-600 rounded-full flex justify-center items-center w-11 h-11">
         <img src={imgURL} alt={label} width={24} height={24} />
